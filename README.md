@@ -2,47 +2,37 @@
 
 Book Library App คือแอปพลิเคชันจัดการหนังสือส่วนตัว (Personal Book Manager) พัฒนาด้วย React Native CLI โดยเน้นการใช้งานง่าย ปลอดภัย และสามารถทำงานได้แบบออฟไลน์
 
-✨ คุณสมบัติหลัก
+✨ คุณสมบัติ
 
 🔐 ระบบความปลอดภัย (Custom Local Authentication)
 
-ผู้ใช้ต้องตั้ง Passcode ครั้งแรกที่เข้าแอป
-
-ใช้ Passcode นี้ในการเข้าสู่ระบบครั้งถัดไป
-
-สามารถกด Reset Passcode เพื่อเปลี่ยนรหัสใหม่ได้
+- ผู้ใช้ต้องตั้ง Passcode ครั้งแรกที่เข้าแอป
+- ใช้ Passcode นี้ในการเข้าสู่ระบบครั้งถัดไป
+- สามารถกด Reset Passcode เพื่อเปลี่ยนรหัสใหม่ได้
 
 📖 จัดการหนังสือ (CRUD Book Management)
 
-เพิ่มหนังสือใหม่
-
-ดูหนังสือทั้งหมด
-
-ดูรายละเอียดหนังสือรายเล่ม
-
-แก้ไขข้อมูลหนังสือ
-
-ลบหนังสือ
+- เพิ่มหนังสือใหม่
+- ดูหนังสือทั้งหมด
+- ดูรายละเอียดหนังสือรายเล่ม
+- แก้ไขข้อมูลหนังสือ
+- ลบหนังสือ
 
 💾 เก็บข้อมูลแบบ Local
 
-ใช้ AsyncStorage สำหรับจัดเก็บข้อมูลหนังสือและ Passcode ภายในเครื่อง
+- ใช้ AsyncStorage สำหรับจัดเก็บข้อมูลหนังสือและ Passcode ภายในเครื่อง
 
 🎨 UI/UX ทันสมัย
 
-ใช้ React Native StyleSheet
-
-ปรับแต่งหน้าจอ Passcode ให้ฟีลเหมือนระบบล็อกหน้าจอ
+- ใช้ React Native StyleSheet
+- ปรับแต่งหน้าจอ Passcode ให้ฟีลเหมือนระบบล็อกหน้าจอ
 
 ⚙️ Requirements
 
-Node.js >= 16.0
-
-React Native CLI
-
-Android Studio (สำหรับ Emulator และ Android SDK)
-
-Java JDK (แนะนำ JDK 17)
+- Node.js >= 16.0
+- React Native CLI
+- Android Studio (สำหรับ Emulator และ Android SDK)
+- Java JDK (แนะนำ JDK 17)
 
 🚀 การติดตั้งและรันแอป
 1. Clone โปรเจกต์
@@ -81,11 +71,8 @@ Reset Passcode: กดปุ่ม Reset (หลังจากเข้าส�
 🛠️ เทคโนโลยีที่ใช้
 
 Frontend: React Native CLI
-
 Navigation: In-file State Navigation (ไม่ใช้ react-navigation เพื่อความง่าย)
-
 Authentication: Custom Local Passcode Authentication (AsyncStorage)
-
 Storage: AsyncStorage
 
 UI: React Native StyleSheet, TouchableOpacity, FlatList
