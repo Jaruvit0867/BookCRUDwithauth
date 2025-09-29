@@ -47,15 +47,19 @@ Java JDK (แนะนำ JDK 17)
 🚀 การติดตั้งและรันแอป
 1. Clone โปรเจกต์
    git clone <repository-url>
+   
    cd BookCRUD
 
 2. ติดตั้ง dependencies
+   
    npm install
 
-3. รันแอพพลิเคชันบน Android Emulator
+4. รันแอพพลิเคชันบน Android Emulator
+   
    npx react-native run-android
 
-4. หรือรัน Metro Bundler
+6. หรือรัน Metro Bundler
+   
    npx react-native start
 
 📱 การใช้งาน
